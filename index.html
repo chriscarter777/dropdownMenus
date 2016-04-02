@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <link href="default.css" rel="stylesheet" />
+    <link href="lightbox.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
@@ -45,9 +46,16 @@
         </div>
         <blockquote>...but of mind.</blockquote>
    </div>
-    <footer>
+   <div id="thumbContainer">
+     <a class="thumb" href="sqirrel1.jpg" data-lightbox="First"><img src="squirrel1_thumb.jpg" alt = "First Image"></a>
+     <a class="thumb" href="squirrel2.jpg" data-lightbox="Second"><img src="squirrel2_thumb.jpg" alt = "Second Image"></a>
+     <a class="thumb" href="squirrel3.jpg" data-lightbox="Third"><img src="squirrel3_thumb.jpg" alt = "Third Image"></a>
+     <a class="thumb" href="squirrel4.jpg" data-lightbox="Fourth"><img src="squirrel4_thumb.jpg" alt = "Fourth Image"></a>
+   </div>
+   <footer>
         <h5>&copy Christopher Carter</h5>
     </footer>
     <script src="default.js"></script>
+    <script src="lightbox.js"></script>
 </body>
 </html>

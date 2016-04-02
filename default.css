@@ -43,8 +43,18 @@ footer {
     border-radius: 7px;
     background-color: purple;
 }
+#thumbContainer {
+  clear:both;
+  position:absolute;
+  width:80%;
+  left:10%;
+  top:63%;
+  height: 210px;
+  padding:10px;
+  border: 1px solid blue;
+}
 .buttonContainer {
-    
+
 }
 .dropContainer {
     position:relative;
@@ -70,6 +80,11 @@ a:hover {
     font-size: 1.5em;
     color: darkred;
     text-decoration: none;
+}
+.thumb {
+  margin 5px 5px 5px 5px;
+  border solid blue 1px;
+  padding 5px 5px 5px 5px;
 }
 h1 {
     text-align: center;
